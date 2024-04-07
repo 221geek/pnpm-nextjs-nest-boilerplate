@@ -1,1 +1,6 @@
-{ "packages": ["packages/*", "apps/*"] }
+packages:
+  - 'packages/**'
+  - 'apps/**'
+  - 'docs'
+  - '!**/test/**'
+  - 'examples/**'
