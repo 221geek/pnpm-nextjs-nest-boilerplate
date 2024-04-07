@@ -6,6 +6,7 @@
 	"scripts": {
 		"test": "jest",
 		"build": "tsc",
+		"web:dev": "pnpm --filter @monorepo/web run dev",
 		"lint": "eslint .",
 		"format": "prettier --write .",
 		"prepare": "husky install",
