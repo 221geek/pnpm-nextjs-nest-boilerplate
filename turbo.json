@@ -3,7 +3,7 @@
 	"pipeline": {
 		"build": {
 			"dependsOn": ["^build"],
-			"outputs": ["dist/**"],
+			"outputs": [".next/**", "public/**", "node_modules/.cache/**"],
 			"cache": true
 		},
 		"test": {
